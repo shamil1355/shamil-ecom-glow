@@ -5,31 +5,31 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "shamil@example.com",
-    href: "mailto:shamil@example.com",
+    value: "shamilkp4729@gmail.com",
+    href: "mailto:shamilkp4729@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 98765 43210",
-    href: "tel:+919876543210",
+    value: "+91 8129664729",
+    href: "tel:+918129664729",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "Kerala, India",
+    value: "Manjeri, Kerala, India",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/shamil",
-    href: "https://github.com",
+    value: "github.com/shamil1355",
+    href: "https://github.com/shamil1355",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/shamil",
-    href: "https://linkedin.com",
+    value: "linkedin.com/in/mohammed-shamil-536880227",
+    href: "https://www.linkedin.com/in/mohammed-shamil-536880227",
   },
 ];
 
@@ -46,16 +46,15 @@ export const About = () => {
           <Card className="glass-card p-8 space-y-6 animate-fade-in">
             <h3 className="text-2xl font-semibold text-gradient">Hello!</h3>
             <p className="text-muted-foreground leading-relaxed">
-              I'm a passionate Electronics & Communication Engineering student with a
-              keen interest in embedded systems, robotics, and artificial
-              intelligence. My journey in technology is driven by curiosity and the
-              desire to create innovative solutions that make a difference.
+              I am an engineering student specializing in Electronics and Communication 
+              Engineering, with hands-on experience in embedded programming, robotics design, 
+              and hardware–software integration. I enjoy creating real-world solutions using 
+              microcontrollers, sensors, and intelligent automation.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Through hands-on projects and continuous learning, I've developed
-              expertise in various programming languages, hardware platforms, and
-              emerging technologies. I believe in the power of interdisciplinary
-              approaches to solve complex engineering challenges.
+              Beyond academics, I actively participate in hackathons, NSS volunteering, and 
+              student innovation clubs, constantly exploring how electronics and AI can improve 
+              daily life.
             </p>
           </Card>
 

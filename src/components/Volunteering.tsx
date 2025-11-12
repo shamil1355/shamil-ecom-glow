@@ -7,14 +7,14 @@ const volunteering = [
     role: "Active Volunteer",
     icon: Users,
     description:
-      "Participated in community service activities including blood donation camps, environmental awareness programs, and educational initiatives for underprivileged children.",
+      "Participated in community service, awareness drives, and campus sustainability programs. Engaged in various social initiatives to contribute positively to the community.",
   },
   {
-    organization: "Junior Red Cross (JRC)",
-    role: "Youth Member",
+    organization: "Indian Red Cross Society (JRC Cadet)",
+    role: "Youth Member (2018-2020)",
     icon: Heart,
     description:
-      "Engaged in first aid training programs, disaster management workshops, and health awareness campaigns in local communities.",
+      "Involved in youth health and humanitarian activities. Participated in first aid training programs and health awareness campaigns in local communities.",
   },
 ];
 

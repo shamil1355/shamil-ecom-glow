@@ -5,36 +5,12 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Autonomous Delivery Robot",
-    timeline: "Jan 2024 - Present",
+    title: "FaceLytix – Intelligent Touchless Attendance System",
+    timeline: "Dec 2024 - Apr 2025",
     description:
-      "Developed an autonomous robot using ROS and OpenCV for indoor navigation and package delivery with real-time obstacle detection.",
-    tech: ["Python", "ROS", "OpenCV", "Arduino", "Raspberry Pi"],
-    github: "https://github.com",
-  },
-  {
-    title: "Smart Home Automation System",
-    timeline: "Aug 2023 - Dec 2023",
-    description:
-      "IoT-based home automation using ESP32 with voice control integration and mobile app for monitoring and control.",
-    tech: ["ESP32", "IoT", "Flutter", "Firebase", "Sensors"],
-    github: "https://github.com",
-  },
-  {
-    title: "Gesture-Controlled Wheelchair",
-    timeline: "Mar 2023 - Jul 2023",
-    description:
-      "Designed a wheelchair controlled by hand gestures using computer vision and machine learning for enhanced accessibility.",
-    tech: ["Python", "TensorFlow", "OpenCV", "Arduino", "ML"],
-    github: "https://github.com",
-  },
-  {
-    title: "Real-Time Face Recognition System",
-    timeline: "Oct 2022 - Feb 2023",
-    description:
-      "Built a real-time face recognition system using deep learning with high accuracy for attendance tracking applications.",
-    tech: ["Python", "PyTorch", "OpenCV", "Deep Learning", "CNN"],
-    github: "https://github.com",
+      "A smart, touchless attendance system using ESP32-CAM and OpenCV for real-time facial recognition and automated record keeping. Securely logs attendance without manual input, ideal for schools, offices, and organizations.",
+    tech: ["ESP32-CAM", "Raspberry Pi", "OpenCV", "Python", "Arduino IDE"],
+    github: "https://github.com/shamil1355/FaceLytix",
   },
 ];
 

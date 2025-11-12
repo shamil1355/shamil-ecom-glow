@@ -7,10 +7,10 @@ import { Mail, Phone, Github, Linkedin, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const socialLinks = [
-  { icon: Mail, label: "Email", href: "mailto:shamil@example.com" },
-  { icon: Phone, label: "Phone", href: "tel:+919876543210" },
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+  { icon: Mail, label: "Email", href: "mailto:shamilkp4729@gmail.com" },
+  { icon: Phone, label: "Phone", href: "tel:+918129664729" },
+  { icon: Github, label: "GitHub", href: "https://github.com/shamil1355" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/mohammed-shamil-536880227" },
 ];
 
 export const Contact = () => {

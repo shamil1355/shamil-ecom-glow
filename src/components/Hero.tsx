@@ -6,7 +6,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 export const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "ECE Student • Embedded & Robotics Enthusiast";
+  const fullText = "ECE Student • Embedded Systems & Robotics Enthusiast";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -55,9 +55,8 @@ export const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-xl">
-              Passionate about creating innovative solutions in embedded systems,
-              robotics, and artificial intelligence. Building the future, one circuit
-              at a time.
+              I build intelligent systems that bridge the gap between hardware and software — 
+              from face-recognition attendance systems to robotic prototypes.
             </p>
 
             <div className="flex flex-wrap gap-4">

@@ -3,33 +3,15 @@ import { Briefcase, CircleDot } from "lucide-react";
 
 const experiences = [
   {
-    role: "Robotics Intern",
-    organization: "Tech Innovations Lab",
-    duration: "Jun 2024 - Aug 2024",
+    role: "Embedded Systems & Hardware Lead",
+    organization: "Motridox Robotics",
+    duration: "Sep 2022 - Present",
     points: [
-      "Developed autonomous navigation algorithms for mobile robots",
-      "Implemented computer vision systems for object detection and tracking",
-      "Collaborated with cross-functional teams on IoT integration projects",
-    ],
-  },
-  {
-    role: "Research Assistant",
-    organization: "College Research Center",
-    duration: "Jan 2024 - May 2024",
-    points: [
-      "Conducted research on embedded machine learning applications",
-      "Assisted in developing low-power AI models for edge devices",
-      "Published findings in college technical symposium",
-    ],
-  },
-  {
-    role: "Technical Volunteer",
-    organization: "IEEE Student Branch",
-    duration: "Aug 2023 - Present",
-    points: [
-      "Organized workshops on embedded systems and robotics",
-      "Mentored junior students in programming and hardware projects",
-      "Led team projects for technical competitions",
+      "Designed and assembled custom robotic hardware for student-led projects",
+      "Programmed and tested embedded systems using microcontrollers and sensors",
+      "Integrated hardware and software to create functional prototypes",
+      "Represented the team at hackathons including NASA Space Apps Challenge",
+      "Achieved 2nd place at Zilkathon Hackathon with innovative robotics solutions",
     ],
   },
 ];

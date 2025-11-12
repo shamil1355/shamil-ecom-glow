@@ -5,27 +5,27 @@ import { GraduationCap } from "lucide-react";
 const education = [
   {
     degree: "B.Tech in Electronics & Communication Engineering",
-    institution: "Government Engineering College",
-    duration: "2021 - 2025",
-    grade: "CGPA: 8.5/10",
+    institution: "Eranad Knowledge City Technical Campus",
+    duration: "Sep 2022 - Oct 2026",
+    grade: "Manjeri, Kerala",
     highlights: [
-      "Major Courses: Embedded Systems, Digital Signal Processing, Microcontrollers, Control Systems, VLSI Design",
-      "Active member of IEEE and NSS student chapters",
-      "Winner of multiple technical competitions and hackathons",
+      "Comprehensive program focusing on analog and digital electronics, communication systems, and signal processing",
+      "Key Skills: 8051 Microcontroller, HDL, Embedded Software, C Programming, Python, MCU Architecture",
+      "Encourages innovation through research projects, practical training, and industry connections",
     ],
-    societies: ["IEEE", "NSS", "Robotics Club"],
+    societies: ["NSS", "IEDC", "IEEE"],
   },
   {
-    degree: "Higher Secondary Education (12th Grade)",
-    institution: "Kerala State Board",
-    duration: "2019 - 2021",
-    grade: "Percentage: 95.2%",
+    degree: "Higher Secondary Education - Computer Science",
+    institution: "Darul Uloom Higher Secondary School (HSS) Panakkad",
+    duration: "Jun 2020 - Mar 2022",
+    grade: "Kerala, India",
     highlights: [
-      "Specialized in Physics, Chemistry, and Mathematics",
-      "School Science Club President",
-      "Represented school in state-level science exhibition",
+      "Solid foundations in computer science including programming and database management",
+      "Hands-on learning in web technologies and coding challenges",
+      "Built analytical and problem-solving skills through practical projects",
     ],
-    societies: ["Science Club", "JRC"],
+    societies: ["Computer Science Club"],
   },
 ];
 

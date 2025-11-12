@@ -2,14 +2,11 @@ import { Badge } from "@/components/ui/badge";
 import { Award } from "lucide-react";
 
 const certifications = [
-  "Python for Data Science - IBM",
-  "Machine Learning A-Z™ - Udemy",
-  "Embedded Systems Design - Coursera",
-  "Deep Learning Specialization - deeplearning.ai",
-  "ROS for Beginners - Udemy",
-  "Arduino Programming - Great Learning",
-  "IoT Fundamentals - Cisco",
-  "PCB Design with KiCAD - Udemy",
+  "Artificial Intelligence - NoviTech R&D Pvt Ltd (2025)",
+  "Project to Product - Eranad Knowledge City (2024)",
+  "VLSI System on Chip Design - Maven Silicon (2024)",
+  "Enterprise Data Science - IBM (2024)",
+  "Scientific Computing & Data Science Using Python - EKC (2023)",
 ];
 
 export const Certifications = () => {
