@@ -54,7 +54,7 @@ export const Footer = () => {
               className="border-primary/50 hover:bg-primary/10"
               asChild
             >
-              <a href="#contact">Download CV</a>
+              <a href="/Mohammed_Shamil_CV.pdf" download="Mohammed_Shamil_CV.pdf">Download CV</a>
             </Button>
           </div>
         </div>
