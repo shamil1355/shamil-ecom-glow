@@ -77,7 +77,7 @@ export const Hero = () => {
                 className="border-primary/50 hover:bg-primary/10"
                 asChild
               >
-                <a href="/Mohammed_Shamil_CV.pdf" download="Mohammed_Shamil_CV.pdf">
+                <a href="#contact">
                   <Download className="mr-2 h-5 w-5" />
                   Download CV
                 </a>

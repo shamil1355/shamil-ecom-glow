@@ -54,13 +54,13 @@ export const Footer = () => {
               className="border-primary/50 hover:bg-primary/10"
               asChild
             >
-              <a href="/Mohammed_Shamil_CV.pdf" download="Mohammed_Shamil_CV.pdf">Download CV</a>
+              <a href="#contact">Download CV</a>
             </Button>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} <span className="font-bold">Mohammed Shamil K P</span>. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mohammed Shamil K P. All rights reserved.</p>
         </div>
       </div>
 
