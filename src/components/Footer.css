@@ -1,0 +1,29 @@
+.footer {
+  padding: 4rem 0;
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-logo {
+  color: var(--gold);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

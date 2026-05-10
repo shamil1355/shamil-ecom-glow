@@ -1,0 +1,49 @@
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.cert-card {
+  border: 1px solid var(--gold-dim);
+  padding: 2.5rem;
+  transition: var(--transition-hover);
+  background: var(--bg-base);
+}
+
+.cert-card:hover {
+  border-color: var(--gold);
+  background: var(--bg-card);
+}
+
+.cert-card.nasa-badge {
+  border: 1px solid transparent;
+  background: linear-gradient(var(--bg-base), var(--bg-base)) padding-box,
+              linear-gradient(45deg, rgba(65, 105, 225, 0.4), rgba(201, 168, 76, 0.4)) border-box;
+}
+
+.cert-card.nasa-badge:hover {
+  background: linear-gradient(var(--bg-card), var(--bg-card)) padding-box,
+              linear-gradient(45deg, #4169e1, var(--gold)) border-box;
+}
+
+.cert-year {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.cert-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.cert-org {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

@@ -1,96 +1,71 @@
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github } from "lucide-react";
+import { IconArrowUpRight } from '@tabler/icons-react';
+import './Projects.css';
 
-const projects = [
-  {
-    title: "FaceLytix – Intelligent Touchless Attendance System",
-    timeline: "Dec 2024 - Apr 2025",
-    description:
-      "A smart, touchless attendance system using ESP32-CAM and OpenCV for real-time facial recognition and automated record keeping. Securely logs attendance without manual input, ideal for schools, offices, and organizations.",
-    tech: ["ESP32-CAM", "Raspberry Pi", "OpenCV", "Python", "Arduino IDE"],
-    github: "https://github.com/shamil1355/FaceLytix",
-  },
-];
-
-export const Projects = () => {
+const Projects = () => {
   return (
-    <section id="projects" className="py-20 px-4">
-      <div className="container mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          Featured <span className="text-gradient">Projects</span>
-        </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Innovative solutions combining hardware and software to solve real-world
-          problems
-        </p>
+    <section className="section" id="projects">
+      <div className="container">
+        <h2 className="section-title fade-up">Projects</h2>
+        <div className="projects-grid">
+          
+          <div className="project-card fade-up delay-100">
+            <div className="project-header">
+              <h3 className="project-title">FaceLytix</h3>
+              <span className="project-status">Completed</span>
+            </div>
+            <div className="project-subtitle">Intelligent Touchless Attendance System</div>
+            <p className="project-desc">Real-time facial recognition attendance system using ESP32-CAM and OpenCV. Designed for schools and offices with secure, automated logging. Handled hardware installation, software integration, and full framework design.</p>
+            <div className="project-tech">
+              <span className="tech-pill">ESP32-CAM</span>
+              <span className="tech-pill">Raspberry Pi</span>
+              <span className="tech-pill">OpenCV</span>
+              <span className="tech-pill">Python</span>
+            </div>
+            <a href="https://github.com/shamil1355/FaceLytix" target="_blank" rel="noopener noreferrer" className="project-link">
+              View Repository <IconArrowUpRight size={16} />
+            </a>
+          </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {projects.map((project, index) => (
-            <Card
-              key={project.title}
-              className="glass-card p-6 hover:scale-105 hover:glow-primary transition-all duration-300 group animate-fade-in"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="space-y-4">
-                <div className="flex items-start justify-between">
-                  <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
-                    {project.title}
-                  </h3>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    className="text-muted-foreground hover:text-primary"
-                    asChild
-                  >
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Github className="h-5 w-5" />
-                    </a>
-                  </Button>
-                </div>
+          <div className="project-card fade-up delay-200">
+            <div className="project-header">
+              <h3 className="project-title">Westo</h3>
+              <span className="project-status">Completed</span>
+            </div>
+            <div className="project-subtitle">Smart Waste Bin with Auto-Compression</div>
+            <p className="project-desc">Smart waste management system integrating embedded systems, robotics, and a Flutter mobile app. Features automatic lid via servo/ultrasonic sensors and dual stepper motor compression using A4988 drivers.</p>
+            <div className="project-tech">
+              <span className="tech-pill">ESP32</span>
+              <span className="tech-pill">HC-SR04</span>
+              <span className="tech-pill">A4988</span>
+              <span className="tech-pill">Flutter</span>
+            </div>
+            <a href="https://github.com/MotridoxRobotics/WasteBin" target="_blank" rel="noopener noreferrer" className="project-link">
+              View Repository <IconArrowUpRight size={16} />
+            </a>
+          </div>
 
-                <p className="text-sm text-muted-foreground">{project.timeline}</p>
+          <div className="project-card fade-up delay-300">
+            <div className="project-header">
+              <h3 className="project-title">The-V</h3>
+              <span className="project-status">
+                <span className="pulse-dot"></span>
+                <span style={{ color: 'var(--champagne)' }}>Ongoing</span>
+              </span>
+            </div>
+            <div className="project-subtitle">Autonomous Waste Management Robot</div>
+            <p className="project-desc">Autonomous urban waste collection robot featuring CV-based navigation, a robotic arm for pickup, AI material classification, IoT cloud dashboard, and self-charging docking system.</p>
+            <div className="project-tech">
+              <span className="tech-pill">Computer Vision</span>
+              <span className="tech-pill">AI/ML</span>
+              <span className="tech-pill">IoT</span>
+              <span className="tech-pill">OpenCV</span>
+            </div>
+          </div>
 
-                <p className="text-muted-foreground leading-relaxed">
-                  {project.description}
-                </p>
-
-                <div className="flex flex-wrap gap-2">
-                  {project.tech.map((tech) => (
-                    <Badge
-                      key={tech}
-                      variant="secondary"
-                      className="bg-primary/10 text-primary"
-                    >
-                      {tech}
-                    </Badge>
-                  ))}
-                </div>
-
-                <Button
-                  variant="outline"
-                  className="w-full border-primary/50 hover:bg-primary/10 group-hover:border-primary transition-colors"
-                  asChild
-                >
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View on GitHub
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-              </div>
-            </Card>
-          ))}
         </div>
       </div>
     </section>
   );
 };
+
+export default Projects;

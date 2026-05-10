@@ -1,0 +1,67 @@
+.research-card {
+  background: var(--bg-card);
+  border: 1px solid var(--gold-dim);
+  padding: 4rem;
+  position: relative;
+  text-align: center;
+  transition: var(--transition-hover);
+}
+
+.research-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.research-header {
+  margin-bottom: 2rem;
+}
+
+.research-icon {
+  font-size: 2rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.research-journal {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: var(--champagne);
+}
+
+.research-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.research-id {
+  font-family: var(--font-body);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+.research-card .project-desc {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  text-align: left;
+}
+
+.research-card .project-tech {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .research-card {
+    padding: 2rem;
+  }
+}
